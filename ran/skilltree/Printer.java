@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+// 프린터
 class Solution {
     public int solution(int[] priorities, int location) {
         
