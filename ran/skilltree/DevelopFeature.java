@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+// 기능개발 
 class Solution {
     public int[] solution(int[] progresses, int[] speeds) {
         int[] answer = new int[progresses.length];
