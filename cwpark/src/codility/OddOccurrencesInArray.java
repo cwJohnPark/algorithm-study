@@ -14,13 +14,15 @@ public class OddOccurrencesInArray {
     }
 
     static class Solution {
-
+        int unpaired = -1;
         public int solution(int[] A) {
-            int unpaired = -1;
-            int buf = 0;
+            Set<Integer> set = new HashSet<>();
             for(int i = 0; i < A.length; i++) {
-                if((buf & A[i]) > 0) {
-
+                int num = A[i];
+                if(set.contains(num)) {
+                    set.remove(num);
+                } else {
+                    set.add(num);
                 }
             }
 
