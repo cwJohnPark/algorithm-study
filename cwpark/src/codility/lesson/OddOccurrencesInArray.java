@@ -1,4 +1,4 @@
-package codility;
+package codility.lesson;
 
 import java.util.HashSet;
 import java.util.Set;
